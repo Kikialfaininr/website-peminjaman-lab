@@ -1,0 +1,10 @@
+User:
+1. Admin
+    - username: admin
+    - password: admin123
+2. Kepala lab
+    - username: kalab
+    - password: kepalalab
+3. Pengguna (sesuai data pengguna), contoh:
+    - username: kiki
+    - password: kiki123

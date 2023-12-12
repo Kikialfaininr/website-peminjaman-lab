@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold; 
+    color: #3a487f;
+    margin-bottom: 23px;
+}
+
+.image {
+    width:100%; 
+    height: 650px;
+}
+
+.caption {
+    top: 50%; 
+    height: auto; 
+    max-height: 10px;
+}
+
+.box {
+    color: white; 
+    padding: 30px; 
+    border-radius: 50px;
+}
+
+.big-text {
+    color: white;
+    font-size: 34pt;
+    font-weight: 900;
+}
+
+.big-text-black {
+    color: black;
+    font-size: 36pt;
+    font-weight: 900;
+}
+
+#accordion {
+    width: 45%; 
+    margin-top: 40px; 
+    padding: 40px;
+}
+
+.strong {
+    color: #191972;
+}
+
+.footer {
+    background-color: #191972; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+.jadwal {
+    width: 100%;
+    margin-top: 150px;
+}
+
+input[type=date] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.table {
+    margin: 35px;
+}
+
+#jadwal th {
+    color: white;
+    text-align: center;
+}
+
+.form-add {
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    margin: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=email],
+input[type=password],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+input[type=submit]:hover {
+    background-color: #191972;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #3a487f;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.check-container {
+    display: block;
+    margin: 10px;
+}
+
+.login {
+    position: fixed;
+    top: 55%;
+    transform: translate(-30%, -50%);
+    background: rgba(4, 29, 23, 0.5);
+    padding: 50px;
+    width: 500px;
+    box-shadow: 0px 0px 25px 10px black;
+    border-radius: 15px;
+}
+
+.avatar {
+    font-size: 30px ;
+    background: #3a487f;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+}
+
+.box-login {
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+
+.box-login i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+}
+
+.box-login input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.box-login input::placeholder {
+    color: white;
+}
+
+.btn-login
+.box-login input:hover{
+    background: rgba(10, 10, 10,s 0.5);
+}
+
+.btn-login {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background: rgba(12, 30, 15, 0.5);
+}
+
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+.navbar{
+	margin-bottom: 0;
+	background: #191972;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin-top: 0;
+    padding-top: 100px;
+    width: 200px;
+    background-color: #999DA0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px 0px 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #777B7E;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
